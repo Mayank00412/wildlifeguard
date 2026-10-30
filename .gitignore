@@ -1,0 +1,66 @@
+# Secrets
+.env
+*.pem
+*.key
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploaded / generated media (keep directory placeholders)
+videos/*
+!videos/.gitkeep
+processed/*
+!processed/.gitkeep
+results/*
+!results/.gitkeep
+datasets/*
+!datasets/.gitkeep
+
+# Model weights (large binaries)
+models/*
+!models/.gitkeep
+!models/README.md
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.bin
+*.safetensors
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
